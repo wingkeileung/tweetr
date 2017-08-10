@@ -1,0 +1,93 @@
+.container-tweet {
+    border-radius: 10px;
+    }
+
+.container-tweet header {
+  background-color: lightblue;
+  color: e8fdff;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container-tweet:hover .tweet {
+  opacity: 0.7;
+}
+
+article.tweet {
+  border: solid 3px;
+  border-radius: 10px;
+  margin: 40px 0px;
+}
+
+.avatar img {
+  border-radius: 5px;
+  border: solid 1px;
+  display: flex;
+  height: 50px;
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 50px;
+}
+
+section.avatar {
+  border-radius: 10px;
+}
+
+.tweetheader {
+  display: flex;
+  width: 65%;
+  line-height: 60px;
+}
+
+header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px:
+}
+
+.uname {
+  border-top-right-radius: 10px;
+  display: flex;
+  line-height: 60px;
+  padding-right: 10px;
+}
+
+.maintweet {
+  background-color : white;
+  border-bottom: solid 1px;
+  border-top: solid 1px;
+  color: black;
+  padding: 30px;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.stamp{
+  margin-top: 0px;
+  padding: 10px;
+}
+
+.tools{
+  line-height: 40px;
+  opacity: 0.0;
+}
+
+article:hover .tools{
+  opacity: 1.0;
+  line-height: 40px;
+
+}
+
+footer {
+  background-color : lightgrey;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.container-tweet textarea.error {
+
+}

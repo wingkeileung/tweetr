@@ -17,8 +17,30 @@ html {
 body {
   margin: 0;
   color: #244751;
+  font-family: 'Roboto Condensed', sans-serif;
   background-color: #eee;
 }
+
+body .container {
+  text-align: left;
+  padding: 20px;
+}
+
+main {
+  background: lightgrey;
+  margin: auto;
+  padding-top: 160px;
+  vertical-align: middle;
+  width: 450px;
+}
+
+input, textarea {
+  outline: none;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions

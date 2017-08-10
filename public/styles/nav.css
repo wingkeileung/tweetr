@@ -1,0 +1,32 @@
+.nav-bar {
+  background: blue;
+  background: #00a087;
+  font: #e8fdff;
+  height: 50px;
+  margin: left;
+  padding: 2em;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav-bar .logo {
+  float: left;
+  height: 50px;
+}
+
+.nav-bar .header {
+  float: left;
+  font-size: 200%;
+  line-height: 50px;
+  padding-left: 10px;
+}
+
+.nav-bar .compose {
+  float: right;
+  line-height: 30px;
+  padding: 5px;
+}

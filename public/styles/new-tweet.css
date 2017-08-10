@@ -1,0 +1,31 @@
+.new-tweet {
+  background-color: lightblue;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 2em;
+  margin: auto;
+
+}
+
+textarea {
+  width: 100%;
+  border-color: black;
+  padding: 2px;
+}
+
+.counter {
+  float: right;
+  padding: 10px;
+}
+
+.inputheader {
+  border-bottom: 1px solid black;
+}
+
+.new-tweet.error textarea {
+  border: solid 1px red;
+}
+
+.new-tweet.error .counter {
+  color: red;
+}
