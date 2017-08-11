@@ -23,8 +23,4 @@ $(document).ready(function() {
 
   });
 
-// tweets.forEach(function (tweet) {
-//       $('section.container-tweet').append(createTweetElement(tweet));
-
-// });
 });

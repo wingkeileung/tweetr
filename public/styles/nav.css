@@ -26,8 +26,9 @@
 }
 
 .nav-bar .compose {
+  border-radius: 5px;
   float: right;
-  line-height: 30px;
+  line-height: 25px;
   margin-top: 5px;
   padding: 5px;
 }

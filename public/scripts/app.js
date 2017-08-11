@@ -1,8 +1,3 @@
-/*
- * Client-side JS logic goes here
- * jQuery is already loaded
- * Reminder: Use (and do all your DOM work in) jQuery's document ready function
- */
 $(document).ready(function() {
 
   function createTweetElement(tweet){
@@ -57,7 +52,6 @@ $(document).ready(function() {
     // This prevent leaving the page for submit
     var textChar = $(".tweetform").val().length;
     if (textChar === null || textChar === 0 || textChar > 140){
-    // console.log(textChar);
       alert("Requirements not met!");
     } else {
       $.ajax({
