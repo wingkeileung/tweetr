@@ -15,21 +15,22 @@ html {
  */
 
 body {
-  margin: 0;
+  background-color: #eee;
   color: #244751;
   font-family: 'Roboto Condensed', sans-serif;
-  background-color: #eee;
+  margin: 0;
 }
 
 body .container {
+  padding: 10px;
+  padding-top: 50px;
   text-align: left;
-  padding: 20px;
 }
 
 main {
   background: lightgrey;
   margin: auto;
-  padding-top: 160px;
+  padding-top: 250px;
   vertical-align: middle;
   width: 450px;
 }

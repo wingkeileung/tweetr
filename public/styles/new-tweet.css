@@ -8,9 +8,9 @@
 }
 
 textarea {
-  width: 100%;
   border-color: black;
   padding: 2px;
+  width: 100%;
 }
 
 .counter {

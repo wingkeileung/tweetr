@@ -1,6 +1,6 @@
 .nav-bar {
-  background: blue;
-  background: #00a087;
+  background: #334AFF;
+  border-bottom: 1px solid;
   font: #e8fdff;
   height: 50px;
   margin: left;
@@ -28,5 +28,6 @@
 .nav-bar .compose {
   float: right;
   line-height: 30px;
+  margin-top: 5px;
   padding: 5px;
 }

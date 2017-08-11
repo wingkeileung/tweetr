@@ -1,6 +1,6 @@
 .container-tweet {
-    border-radius: 10px;
-    }
+  border-radius: 10px;
+}
 
 .container-tweet header {
   background-color: lightblue;
@@ -36,8 +36,8 @@ section.avatar {
 
 .tweetheader {
   display: flex;
-  width: 65%;
   line-height: 60px;
+  width: 65%;
 }
 
 header {
@@ -85,9 +85,4 @@ footer {
   color: black;
   display: flex;
   justify-content: space-between;
-}
-
-
-.container-tweet textarea.error {
-
 }
